@@ -15,6 +15,7 @@
     "babel-preset-react-app": "^9.0.1",
     "camelcase": "^5.2.0",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "core-decorators": "^0.20.0",
     "css-loader": "2.1.1",
     "dotenv": "6.2.0",
     "dotenv-expand": "4.2.0",
@@ -135,14 +136,16 @@
       "react-app"
     ],
     "plugins": [
-        "transform-decorators-legacy",
-        "decorators",
+      [
+        "@babel/plugin-proposal-decorators",
         {
-          "decoratorsBeforeExport": false
+          "legacy": true
         }
       ]
+    ]
   },
-  "eslintConfig": {
-    "extends": "react-app"
+
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.6.0"
   }
 }

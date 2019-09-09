@@ -1,7 +1,7 @@
-import {obserbavle, action, computed} from 'mobx';
+import {observable, action, computed} from 'mobx';
 
 class CarGarage {
-	@obserbavle cars = [];
+	@observable cars = [];
 	@action addCar = (car) => {
 		this.cars.push(car);
 	}
