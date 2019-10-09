@@ -4,15 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import {Provider} from 'mobx-react';
-import CarGarage from './storage/garage.js';
-
-const Root = (
-	<Provider CarGarage={CarGarage}>
-		<App/>
-	</Provider>
-	);
-
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
