@@ -1,5 +1,5 @@
 import React from 'react';
-import Starshtml from './Starlist'
+import Starshtml from '../Layout/Starlist'
 
 var starrows = [{
     name: "UY Scuti",
@@ -52,6 +52,11 @@ var starrows = [{
     diameter: 1400,
     editmass: '<button onclick="editVV()">EDIT</button><section id="edit-input-vv"> <input id="massofvv" type="number" placeholder="new mass"><input id="sizeofvv" type="number" placeholder="new diameter"> <button onclick="newValueVV()">Save</button> </section>'
 }];
+
+
+
+
+
 
 var current_page = 1;
 var records_per_page = 5;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import gridView from './Gridview'
-import listView from './Listview'
-import { nextPage, prevPage, massfilter, myFunctionMass } from './Displaystars'
+import gridView from '../Common/Gridview'
+import listView from '../Common/Listview'
+import { nextPage, prevPage, newValueScuti } from '../Components/Displaystars'
 
 class Starshtml extends Component {
 	render() {

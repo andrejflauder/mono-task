@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Starshtml from './components/Starlist'
+import Starshtml from './Layout/Starlist'
 
 function App() {
   return (
